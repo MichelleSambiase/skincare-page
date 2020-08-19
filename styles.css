@@ -1,0 +1,253 @@
+.navbar-text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0%;
+  text-align: center;
+  font-family: 'Petrona', serif;
+  font-size: 5rem;
+  color: #ffdecf;
+  margin-top: 3%;
+  transition-duration: 0.4s;
+  letter-spacing: 2.3rem;
+}
+
+.navbar-text:hover {
+  color: #818078;
+}
+
+.nav-item {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding: 10% 3% 0% 3%;
+}
+
+.nav-link {
+  transition-duration: 0.3s;
+  color: #d39a80;
+}
+
+.nav-link:hover {
+  color: #818078;
+}
+
+.icons {
+  position: relative;
+  text-align: center;
+  margin-top: 2%;
+
+}
+
+#boton {
+  padding: 0%
+}
+
+#boton2 li {
+ display: inline;
+ }
+
+.fab  {
+  color: #f8f9fc;
+  background-color: #ffdecf;
+  padding: 0.5%;
+  border-radius: 10px;
+  font-size: 1rem;
+
+}
+
+.seccionuno {
+  padding: 1% 0% 3% 0%;
+  background-color: #ffff;
+  text-align: center;
+}
+
+.carousel-inner img {
+  height: 600px;
+  width: 100%;
+}
+
+.secciondos {
+  padding: 3%;
+    background-color: #f8f9fc;
+}
+
+.card-deck {
+  text-align: center;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  top: -60px;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  font-family: 'Petrona', serif;
+  font-size: 2rem;
+}
+
+.hr-text:before {
+  content: '';
+  background: linear-gradient(to right, transparent, #818078, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0 0.5em;
+  line-height: 1.5em;
+  color: #d39a80;
+  background-color: #f8f9fc;
+}
+
+.secciontres {
+  padding: 3% 0% 5% 0%;
+  background-color: #f8f9fc;
+}
+
+.card-img-center {
+  border-radius: 15px;
+  transition-duration: 0.5s;
+}
+
+.card-img-center:hover,
+.card-img-center:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  transition-duration: 0.5s;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  transition-duration: 0.3s;
+}
+
+.card-title:hover {
+  color: #d39a80;
+  opacity: 0.53;
+}
+
+.card {
+  transition-duration: 0.3s;
+}
+
+.card:hover,
+.card:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 15px grey;
+}
+
+.carta {
+  background-color: #ffffff;
+  box-shadow: 2px 2px 10px grey;
+  border-radius: 4px;
+}
+
+.carta:before, .carta:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, rgba(238, 174, 202, 1), rgb(233, 208, 148, 1));
+  border-image-slice: 1;
+}
+
+/* .cajita {
+  background-color: #ffffff;
+  color: #dda994;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  transition-duration: 0.5s;
+  border-radius: 5px;
+} */
+/*
+.cajita:hover,
+.cajita:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  transition-duration: 0.5s;
+  box-shadow: 2px 2px 5px grey;
+} */
+
+
+
+.final{
+text-align: center;
+
+}
+
+.footerI{
+background-color: #ffffff;
+  padding: 4%;
+}
+
+#boton{
+  padding: 0%
+}
+
+#boton li {
+ display: inline;
+ }
+
+.fass{
+  background-color: #ffdecf;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  margin: 5px;
+  transition-duration: 0.3s;
+
+}
+
+.fass:hover{
+  background-color: #bababa;
+    transition-duration: 0.3s;
+}
+
+.raya{
+  font-family: 'Petrona', serif;
+  line-height: 1.5;
+  font-size: 2;
+  position: relative;
+}
+
+.raya:before  {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  height: 3px;
+  width: 90px;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, rgba(227,173,136,1), rgba(248,249,252,1));
+  border-image-slice: 1;
+}
+
+.titulo{
+  letter-spacing: 2.8rem;
+  font-family: 'Petrona', serif;
+  line-height: 1.5;
+  transition-duration: 0.3s;
+  color:  #ffdecf;
+}
+
+.titulo:hover{
+color: #bababa;
+    transition-duration: 0.3s;
+}

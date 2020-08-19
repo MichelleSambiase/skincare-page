@@ -1,0 +1,21 @@
+podria ser una pagina sobre skincare, como un blog sobre las limpiezas 
+que nos podemos hacer, los productos que podemos utilizar, 
+variando el precio
+....
+
+
+//
+    <div class="carousel-inner imagenes">
+          <div class="carousel-item active">
+            <img src="fotos/noche.jpg"  class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="fotos/pepino.jpg" class=" w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="fotos/boy.jpg"  class=" w-100" alt="...">
+          </div>
+        </div>
+///
+
+medida para que al carousel se vea en toda la pantalla (queda lindo)
