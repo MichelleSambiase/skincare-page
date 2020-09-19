@@ -15,9 +15,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Poppins&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Petrona&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css/font-awesome-animation.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+  <!-- links boostrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
 
   <!-- scripts -->
 
@@ -31,38 +34,57 @@
 <body>
 
   <!-- nabvar -->
-
-  <span class="nav-link">
-    <ul class="nav justify-content-center" style="">
+  
+<header>
+  <div class="container-fluid">  
+     <div class="col-sm-12 col-md-12 col-lg-12">
+      <nav class="nav-link">  
+    
+        <ul class="nav justify-content-center" style="">
       <li class="nav-item">
-        <a class="nav-link  active " style="" href="#">Inicio</a>
+        <a class="nav-link  active " style="" href="">Inicio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link  " style="" href="#">Rutinasa</a>
+        <a class="nav-link  " style="" href="#secciondos">Rutinas</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " style="" href="#">Productos</a>
+        <a class="nav-link " style="" href="#secciontres">Productos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " style="" href="#">Final</a>
-      </li>
-    </ul>
-  </span>
-
-  <span class="navbar-text">
-    <h1>SKINCARE ROUTINE</h1>
-    <hr>
-  </span>
+        <a class="nav-link " style="" href="#footerI">Final</a>
+      </li>   
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
 
 
+
+<span class="navbar-text">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+  <h1>SKINCARE ROUTINE</h1>
   <hr>
+  </div>
+</div>
+</span>
+
+
+
+</header>
+
 
   <!-- iconos redsocial -->
 
-
+  
+ 
+   <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">  
   <ul class="icons" id="boton2">
+    <hr>
     <li >
-      <a href="https://twitter.com/dadatina/status/1139357899925405698/">
+      <a href="https://twitter.com/dadatina">
         <i class="fab fa-twitter"></i></li></a>
     <li>
       <a href="https://www.instagram.com/soydadatina/?hl=es-la/">
@@ -72,10 +94,15 @@
         <i class="fab fa-pinterest"></i></li>
     </a>
   </ul>
+    </div> 
+    </div>
+
+  
+ 
 
 
   <!-- seccion 1 -->
-
+<main>
   <section class="seccionuno">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -111,18 +138,19 @@
 
   <!-- SECCION DOS -->
 
-  <section class="secciondos">
-    <hr class="hr-text hr-rutinas" data-content="Rutinas">
+  <section id="secciondos">
+   
 
 
     <div class="container">
+      <hr class="hr-text hr-rutinas" data-content="Rutinas">
 
       <div class="card-deck">
         <div class="card-flex col-6">
           <img class="card-img-center" src="fotos/rutinadia1.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Rutina de Dia.</h5>
-            <button type="button" class="btn btn- btn-outline-secondary">Mas información</button>
+            <a class="btn btn-outline-secondary" href="https://www.instagram.com/p/B0oymGtAgGz/" role="button">Mas informacion</a>
           </div>
         </div>
 
@@ -130,7 +158,8 @@
           <img class="card-img-center" src="fotos/rutinanoche.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Rutina de Noche.</h5>
-            <button type="button" class="btn btn- btn-outline-secondary">Mas información</button>
+            <a class="btn btn-outline-secondary" href="https://www.instagram.com/p/B0oymGtAgGz/" role="button">Mas informacion</a>
+
           </div>
         </div>
       </div>
@@ -138,7 +167,7 @@
   </section>
 
   <!-- SECCION TRES -->
-  <section class="secciontres">
+  <section id="secciontres">
     <hr class="hr-text" data-content="Productos e Informacion">
 
     <!-- <div class="card-body cajita">
@@ -152,7 +181,7 @@
           <div class="card-body carta">
             <h5 class="card-title">Exfoliantes</h5>
             <p class="card-tex">Es un exfoliante de acción mecánica. Qué quiere decir eso? Que tenemos que pasarlo nosotros por el rostro, masajeando</p>
-            <button type="button" href="https://www.instagram.com/p/CATnqbLAUcH/" class="btn btn- btn-outline-secondary"> Mas información</button>
+            <a class="btn btn-outline-secondary" href="https://www.instagram.com/p/CATnqbLAUcH/" role="button">Mas informacion</a>
           </div>
         </div>
 
@@ -161,7 +190,7 @@
           <div class="card-body carta">
             <h5 class="card-title">Exfoliantes Quimicos</h5>
             <p class="card-tex">Son un tipo de exfoliación química (es decir, físicos, con granitos), no tenemos que hacer fuerza ni enjuagar.</p>
-            <button type="button" class="btn btn- btn-outline-secondary">Mas información</button>
+           <a class="btn btn-outline-secondary" href="https://www.instagram.com/p/B_vlbz7g_j9/" role="button">Mas informacion</a>
           </div>
         </div>
 
@@ -170,7 +199,7 @@
           <div class="card-body card-imagen carta">
             <h5 class="card-title">Mascarillas de arcilla</h5>
             <p class="card-text">La arcilla tiene una gran poder desinfectante y antiséptico que al entrar en contacto con la piel es capaz de absorber y arrastrar todo tipo de toxinas e impurezas del interior al exterior de nuestra piel.</p>
-            <button type="button" class="btn btn- btn-outline-secondary">Mas información</button>
+            <a class="btn btn-outline-secondary" href="https://www.instagram.com/p/B_YZqjVgdiM/" role="button">Mas informacion</a>
           </div>
         </div>
       </div>
@@ -185,7 +214,7 @@
           <div class="card-body carta">
             <h5 class="card-title">Tapabocas</h5>
             <p class="card-tex">El tapabocas puede irritarnos la piel mediante el roce, para saber como cuidarnos durante este tiempo te invito a que leas el post completo.</p>
-            <button type="button" href="https://www.instagram.com/p/CATnqbLAUcH/" class="btn btn- btn-outline-secondary"> Mas información</button>
+            <a class="btn btn-outline-secondary" href="https://www.instagram.com/p/CBomMKwAyDl/" role="button">Mas informacion</a>
           </div>
         </div>
 
@@ -194,7 +223,7 @@
           <div class="card-body carta">
             <h5 class="card-title">Tips para Principiantes</h5>
             <p class="card-tex">¿No sabes como cuidarte la piel? Te invito a que leas el siguiente post para unos primeros tips!</p>
-            <button type="button" class="btn btn- btn-outline-secondary">Mas información</button>
+            <a class="btn btn-outline-secondary" href="https://www.instagram.com/p/B_djRihgofv/" role="button">Mas informacion</a>
           </div>
         </div>
 
@@ -203,18 +232,18 @@
           <div class="card-body carta">
             <h5 class="card-title">Errores de Principiantes</h5>
             <p class="card-text">¿Te lavas mucho la cara? ¿Te exfolias mucho? Te recomiendo que leas este post sobre errores que cometemos todos al principio.</p>
-            <button type="button" class="btn btn- btn-outline-secondary">Mas información</button>
+            <a class="btn btn-outline-secondary" href="https://www.instagram.com/p/B--i2e-g7eM/" role="button">Mas informacion</a>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+</main>
 
 
   <!-- SECCION FOOTER -->
-
-  <section class="footerI">
+<footer>
+  <section id="footerI">
 
     <div class="container final">
       <h1 class="titulo">SKINCARE ROUTINE</h1>
@@ -222,7 +251,7 @@
       <h5 class="raya">WEBPAGE SKINCARE ROUTINE</h5>
       <p class="raya">by Michelle Sambiase</p>
       <br>
-  <p class="raya">Follow me</p>
+  <p class="raya">Contactame</p>
 
       <ul id="boton">
 
@@ -247,6 +276,7 @@
 
 
   </section>
+</footer>
   <script src="index.js" charset="utf-8"></script>
 </body>
 

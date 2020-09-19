@@ -2,14 +2,13 @@
   position: absolute;
   width: 100%;
   left: 0;
-  top: 0%;
+  top: 2%;
   text-align: center;
   font-family: 'Petrona', serif;
   font-size: 5rem;
   color: #ffdecf;
-  margin-top: 3%;
   transition-duration: 0.4s;
-  letter-spacing: 2.3rem;
+  letter-spacing: 1.5rem;
 }
 
 .navbar-text:hover {
@@ -19,12 +18,17 @@
 .nav-item {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  padding: 10% 3% 0% 3%;
+  padding: 0% 2% 0% 2%;
+  margin: 0% 0% 3% 0%;
+  position: relative;
+  top: 90px;
+  
 }
 
 .nav-link {
   transition-duration: 0.3s;
   color: #d39a80;
+  margin: 2% 0% 2% 0%;
 }
 
 .nav-link:hover {
@@ -33,8 +37,10 @@
 
 .icons {
   position: relative;
+  top: 30px;
+  padding-bottom: 2%;
   text-align: center;
-  margin-top: 2%;
+  
 
 }
 
@@ -50,7 +56,7 @@
   color: #f8f9fc;
   background-color: #ffdecf;
   padding: 0.5%;
-  border-radius: 10px;
+  border-radius: 20px;
   font-size: 1rem;
 
 }
@@ -66,7 +72,7 @@
   width: 100%;
 }
 
-.secciondos {
+#secciondos {
   padding: 3%;
     background-color: #f8f9fc;
 }
@@ -78,7 +84,7 @@
 .hr-text {
   line-height: 1em;
   position: relative;
-  top: -60px;
+  top: -3;
   outline: 0;
   border: 0;
   color: black;
@@ -109,7 +115,7 @@
   background-color: #f8f9fc;
 }
 
-.secciontres {
+#secciontres {
   padding: 3% 0% 5% 0%;
   background-color: #f8f9fc;
 }
@@ -166,26 +172,6 @@
   border-image-slice: 1;
 }
 
-/* .cajita {
-  background-color: #ffffff;
-  color: #dda994;
-  text-align: center;
-  margin-bottom: 5%;
-  margin-left: 30%;
-  margin-right: 30%;
-  font-family: 'Raleway', sans-serif;
-  font-style: italic;
-  transition-duration: 0.5s;
-  border-radius: 5px;
-} */
-/*
-.cajita:hover,
-.cajita:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  transform: translateY(-0.25em);
-  transition-duration: 0.5s;
-  box-shadow: 2px 2px 5px grey;
-} */
 
 
 
@@ -194,17 +180,19 @@ text-align: center;
 
 }
 
-.footerI{
+#footerI{
 background-color: #ffffff;
-  padding: 4%;
+
 }
 
 #boton{
-  padding: 0%
+  padding: 2%
+ 
 }
 
 #boton li {
  display: inline;
+ 
  }
 
 .fass{
@@ -226,6 +214,7 @@ background-color: #ffffff;
   line-height: 1.5;
   font-size: 2;
   position: relative;
+ 
 }
 
 .raya:before  {
