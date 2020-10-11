@@ -1,9 +1,14 @@
 /* Media queries */
-/*  @media screen and (max-width: 576px){
+  @media screen and (min-width: 575px){
   .buttonCard{
     margin: 1px;
     right: 180px !important; 
-  }  */
+   }  
+   .card-text{
+    font-size: 1rem;
+    margin-bottom: 1.3rem !important;
+  }
+
 @media screen and (min-width: 576px){
   .buttonCard{
     font-size: 15px;
