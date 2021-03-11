@@ -1,7 +1,30 @@
 /* Media queries */
 
-
+body{
+  margin: 0;
+}
  @media screen and (max-width: 575px){
+ 
+.navbar-text{
+  display: flex !important;
+  justify-content: center;
+}
+.navbar-text h1{
+  color: #ffdecf;
+  font-family: 'Petrona', serif;
+}
+
+  .nav-link {
+    display: flex !important;
+    justify-content: center;
+    color: #d39a80;
+       
+  }
+  
+  .nav-link:hover {
+    color: #d39a80;
+  }
+  
   .buttonCard{
     margin: 1px;
     right: 180px !important; 
@@ -10,14 +33,24 @@
     font-size: 1rem;
     margin-bottom: 1.3rem !important;
   }
+  .nav .nav-item {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
 
-  .fab  {
+.icons{
+  display: flex;
+  justify-content: center;
+}
+ .fab {
     color: #f8f9fc;
     background-color: #ffdecf;
-    padding: 0.5%;
-    border-radius: 20px;
-    font-size: 15px;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 30px;
+    
   }
+  
   .fass{
     background-color: #ffdecf;
     border-radius: 25px;
@@ -25,8 +58,44 @@
     padding: 5px !important;
 
   }
+  .titulo{
+  
+    font-family: 'Petrona', serif;
+    line-height: 1.5;
+    transition-duration: 0.3s;
+    color:  #ffdecf;
+  }
 }
 @media screen and (min-width: 576px){
+  .navbar-text{
+    display: flex !important;
+    justify-content: center;
+  }
+  .navbar-text h1{
+    color: #ffdecf;
+    font-family: 'Petrona', serif;
+  }
+  .nav-link {
+    display: flex !important;
+    justify-content: center;
+    color: #d39a80;  
+    font-family: 'Petrona', serif;
+  }
+  .nav-link:hover {
+    color: #d39a80;
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+  }
+   .fab {
+      color: #f8f9fc;
+      background-color: #ffdecf;
+      padding: 7px;
+      margin: 5px;
+      border-radius: 30px;
+      
+    }
   .buttonCard{
     font-size: 15px;
     margin: 1px;
@@ -48,10 +117,22 @@
     padding: 5px !important;
     margin: 5px;
   }
+  .titulo{
+  
+    font-family: 'Petrona', serif;
+    line-height: 1.5;
+    transition-duration: 0.3s;
+    color:  #ffdecf;
+  }
 }
 
 
 @media screen and (min-width: 768px){
+  .navbar-text{
+    display: flex !important;
+    justify-content: center;
+  }
+  
   .buttonCard{
      right: 30px !important; 
   }
@@ -60,14 +141,70 @@
   }
 }
 @media screen and (min-width: 992px){
+
+  .navbar-text h1{
+    display: flex !important;
+    justify-content: center;
+    
+    font-family: 'Petrona', serif;
+    font-size: 2.4rem;
+    color: #ffdecf;
+    transition-duration: 0.4s;
+    letter-spacing: 1.5rem;
+  }
+  
+.navbar-text h1:hover {
+  transition-duration: 0.4s;
+  color: #818078;
+}
+.nav{
+  display: flex !important;
+  justify-content: center;
+  width: 100%;
+}
+.nav-link {
+  font-size: medium;
+  transition-duration: 0.4s;
+  color: #d39a80;  
+}
+.nav-link:hover {
+  transition-duration: 0.4s;
+  color: #d39a80;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+ .fab {
+    color: #f8f9fc;
+    background-color: #ffdecf;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 50px;
+    
+  }
+.nav-link:hover {
+  color: #818078;
+}
+
   .buttonCard{
     right: 70px !important;
   }
   .carta{
     padding: 1.5rem !important;
   }
+
+   .footerI .titulo{
+    letter-spacing: 2rem;
+    font-family: 'Petrona', serif;
+    transition-duration: 0.3s;
+    color:  #ffdecf;
+  }
+
 }
 @media screen and (min-width: 1200px){
+  
+  
   .buttonCard{
     right: 90px !important;
   }
@@ -76,48 +213,12 @@
   }
 }
 
-.navbar-text {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: 2%;
-  text-align: center;
-  font-family: 'Petrona', serif;
-  font-size: 5rem;
-  color: #ffdecf;
-  transition-duration: 0.4s;
-  letter-spacing: 1.5rem;
-}
+
+
 
 .navbar-text:hover {
+  transition-duration: 0.4s;
   color: #818078;
-}
-
-.nav-item {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  padding: 0% 2% 0% 2%;
-  margin: 0% 0% 3% 0%;
-  position: relative;
-  top: 90px;
-  
-}
-
-.nav-link {
-  transition-duration: 0.3s;
-  color: #d39a80;
-  margin: 2% 0% 2% 0%;
-}
-
-.nav-link:hover {
-  color: #818078;
-}
-
-.icons {
-  position: relative;
-  top: 30px;
-  padding-bottom: 2%;
-  text-align: center;
 }
 
 #boton {
@@ -128,13 +229,6 @@
  display: inline;
  }
 
-.fab  {
-  color: #f8f9fc;
-  background-color: #ffdecf;
-  padding: 0.5%;
-  border-radius: 20px;
-  font-size: 1rem;
-}
 
 .seccionuno {
   padding: 1% 0% 3% 0%;
@@ -317,13 +411,7 @@ background-color: #ffffff;
   border-image-slice: 1;
 }
 
-.titulo{
-  letter-spacing: 2.8rem;
-  font-family: 'Petrona', serif;
-  line-height: 1.5;
-  transition-duration: 0.3s;
-  color:  #ffdecf;
-}
+
 
 .titulo:hover{
 color: #bababa;
